@@ -44,7 +44,7 @@ image:
   csi:
     attacher:
       repository: rancher/mirrored-longhornio-csi-attacher
-      tag: v3.4.0
+      tag: v3.5.0
     provisioner:
       repository: rancher/mirrored-longhornio-csi-provisioner
       tag: v2.1.2
