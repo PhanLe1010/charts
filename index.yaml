@@ -952,9 +952,9 @@ entries:
       catalog.cattle.io/upstream-version: 1.3.2
     apiVersion: v1
     appVersion: v1.3.2-rc1
-    created: "2022-10-07T11:22:40.058452375-07:00"
+    created: "2022-10-12T16:06:28.808601822-07:00"
     description: Longhorn is a distributed block storage system for Kubernetes.
-    digest: 4ace8abcb5cb1d9b91157d664bc09cb1ef026caaf86d9a288156a2eab87ea827
+    digest: ac9f52cc88d274daee6a8fb2bd901eee46790d2afd1fafb319f60f291b1f93ad
     home: https://github.com/longhorn/longhorn
     icon: https://raw.githubusercontent.com/cncf/artwork/master/projects/longhorn/icon/color/longhorn-icon-color.png
     keywords:

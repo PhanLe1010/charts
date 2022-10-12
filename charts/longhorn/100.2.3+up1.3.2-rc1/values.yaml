@@ -24,38 +24,38 @@ global:
 image:
   longhorn:
     engine:
-      repository: rancher/mirrored-longhornio-longhorn-engine
-      tag: v1.3.2-rc1
+      repository: longhornio/longhorn-engine
+      tag: master-head
     manager:
-      repository: rancher/mirrored-longhornio-longhorn-manager
-      tag: v1.3.2-rc1
+      repository: phanle1010/longhorn-manager
+      tag: 15f850c6-dirty
     ui:
-      repository: rancher/mirrored-longhornio-longhorn-ui
-      tag: v1.3.2-rc1
+      repository: longhornio/longhorn-ui
+      tag: master-head
     instanceManager:
-      repository: rancher/mirrored-longhornio-longhorn-instance-manager
+      repository: longhornio/longhorn-instance-manager
       tag: v1_20221003
     shareManager:
-      repository: rancher/mirrored-longhornio-longhorn-share-manager
+      repository: longhornio/longhorn-share-manager
       tag: v1_20221003
     backingImageManager:
-      repository: rancher/mirrored-longhornio-backing-image-manager
+      repository: longhornio/backing-image-manager
       tag: v3_20221003
   csi:
     attacher:
-      repository: rancher/mirrored-longhornio-csi-attacher
-      tag: v3.5.0
+      repository: longhornio/csi-attacher
+      tag: v3.4.0
     provisioner:
-      repository: rancher/mirrored-longhornio-csi-provisioner
+      repository: longhornio/csi-provisioner
       tag: v2.1.2
     nodeDriverRegistrar:
-      repository: rancher/mirrored-longhornio-csi-node-driver-registrar
+      repository: longhornio/csi-node-driver-registrar
       tag: v2.5.0
     resizer:
-      repository: rancher/mirrored-longhornio-csi-resizer
+      repository: longhornio/csi-resizer
       tag: v1.2.0
     snapshotter:
-      repository: rancher/mirrored-longhornio-csi-snapshotter
+      repository: longhornio/csi-snapshotter
       tag: v3.0.3
   pullPolicy: IfNotPresent
 
